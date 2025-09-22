@@ -11,3 +11,11 @@ commands:
 `k9s`
 
 ![cluster](kind-cluster.gif)
+
+
+sources:
+
+https://medium.com/@tradingcontentdrive/creating-a-kind-kubernetes-cluster-a-step-by-step-guide-7b51de16f99c
+
+https://kind.sigs.k8s.io/docs/user/quick-start/
+
