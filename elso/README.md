@@ -1,0 +1,1 @@
+![cluster](kind-cluster.gif)
