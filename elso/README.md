@@ -1,3 +1,5 @@
+https://asciinema.org/a/z40Jh9yqajst0aF51fFdYYTdD
+
 commands:
 
 `kind create cluster --name=first-cluster`
