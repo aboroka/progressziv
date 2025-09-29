@@ -21,3 +21,4 @@ https://kind.sigs.k8s.io/docs/user/quick-start/
 
 https://docker-curriculum.com/
 
+https://kubernetes.io/docs/home/
