@@ -2,7 +2,7 @@
 
 ![docker](docker.gif)
 
-`bash
+```bash
 docker image rm web-2048:latest
 docker build -t web-2048 .
 docker images
@@ -20,7 +20,8 @@ docker restart container
 docker stop container
 docker ps -a
 docker rm container
-docker ps -a`
+docker ps -a
+```
 
 ## Kubernetes 
 
