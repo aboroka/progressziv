@@ -1,0 +1,18 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+td {
+    border-radius: 4px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+    height:55px;
+    width:55px;
+    font-size: 40px;
+    color:#dbdbdb;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px black;
+}
