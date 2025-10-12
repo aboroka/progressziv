@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  namespace: my-namespace
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector: 
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: web-2048
+        image: web-2048
+        command: ["sh", "-c", "echo $GREETING && sleep 3600"]
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 80
+        env:
+        - name: GREETING
+          valueFrom:
+            configMapKeyRef:
+              name: my-config
+              key: GREETING
